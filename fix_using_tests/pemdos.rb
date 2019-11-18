@@ -3,6 +3,7 @@ def snake_it_up(string)
   if string_array[0] == "s"
   new_string = ""
   new_string = 10.times {new_string + "s"} + string
+  binding.pry
   else
   string
   end
